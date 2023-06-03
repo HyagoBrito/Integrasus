@@ -1,0 +1,123 @@
+
+
+.containertitulo
+{
+
+display: flex;
+justify-content: top;
+align-items: center;
+height: 15vh;
+
+
+}
+
+
+.logotitulo
+{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%)
+}
+
+.logosus
+{
+padding: 5px;
+margin: 2px;
+
+
+
+}
+
+.retanguloazul
+{
+margin-top: 0;
+background-color: white;
+width: 100%;
+height: 100px;
+}
+
+.fundodosite
+{
+    height: 100vh;
+    margin: 0px;
+background: linear-gradient(to bottom, #2696FD,#6bace9,#d9e4ee);
+}
+
+.fundodosite::before
+{
+
+content: vazio;
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+background-color:rgba (0, 0, 0, 2);
+
+
+
+}
+
+.retangulofino
+{
+display: flex;
+justify-content: left;
+align-items: center;
+background-color: white;
+width: 100%;
+height: 25px;
+margin: 4px;
+margin-left: 0px;
+}
+
+.espacobotao
+
+{
+margin: 15px 5px;
+border: none;
+border-radius: 5px;
+transition: 0.5 ease;
+}
+
+.espacobotao:hover
+{
+
+background-color: blue;
+color: white;
+transform: scale(1.2);
+}
+
+.direitos
+{
+
+border: 2px solid black;
+padding: 3px;
+    width: 130px;
+    margin-left: 0px;
+position: absolute;
+left: 0;
+bottom: 0px;
+}
+
+.containerquadrado
+{
+
+display: flex;
+justify-content: center;
+align-items: center;
+height: 75vh;
+}
+
+.quadrado
+{
+
+width: 400px;
+height: 400px;
+background-color: white;
+margin: 70px;
+stroke: black 2px;
+
+
+
+}
