@@ -1,6 +1,6 @@
 
 
-.containertitulo
+.container
 {
 
 display: flex;
@@ -8,8 +8,8 @@ justify-content: top;
 align-items: center;
 height: 15vh;
 
-}
 
+}
 
 .logotitulo
 {
@@ -21,15 +21,16 @@ height: 15vh;
 
 .logosus
 {
-    
-position: absolute;
-top: -15px;
+padding: 5px;
+margin: 2px;
+
+
+
 }
 
 .retanguloazul
 {
-padding: 0px;
-margin-top: 0px;
+margin-top: 0;
 background-color: white;
 width: 100%;
 height: 100px;
@@ -37,7 +38,7 @@ height: 100px;
 
 .fundodosite
 {
-    height: 105vh;
+    height: 100vh;
     margin: 0px;
 background: linear-gradient(to bottom, #2696FD,#6bace9,#d9e4ee);
 }
@@ -60,25 +61,17 @@ background-color:rgba (0, 0, 0, 2);
 .retangulomeio
 {
 
-background-color: #024578;
-text-align: center;
+display: flex;
+justify-content: center;
+align-items: center;
 width: 100%;
-height: 35px;
-}
-
-.textomeio
-{
-
-    padding-top: 3px;
-    margin: 0px;
-    font-family: Arial, Helvetica, sans-serif;
+height: 36px;
+background-color: #01508D;
+font-family: Arial, Helvetica, sans-serif;
 color: white;
-
-
+margin: 0px;
 
 }
-
-
 
 .retangulofino
 {
@@ -87,61 +80,70 @@ justify-content: left;
 align-items: center;
 background-color: white;
 width: 100%;
-height: 50px;
+height: 60px;
 margin: 4px;
 margin-left: 0px;
-margin-top: 0px;
-
+margin-top: 35px;
 }
 
 .espacobotao
 
 {
-border-style: groove;
-border-width: 0.5px;
-width: 100%;
+margin-top: 0px;
 height: 100%;
-margin: 0px;
+width: 25%;
+border-style: groove;
+border-color: black;
+border-width: 0.5px;
 transition: 0.5 ease;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 18px;
 }
 
 .espacobotao:hover
 {
 
-background-color: blue;
-color: white;
+background-color: #C1DAF6;
+color: rgb(0, 0, 0);
 transform: scale(1.1);
 }
 
-
-
-.containerquadrado
+.unidade
 {
 
-display: flex;
-justify-content: center;
-align-items: center;
-height: 75vh;
-}
-
-.quadrado
-{
-
-width: 400px;
-height: 400px;
-background-color: white;
-margin: 70px;
-stroke: black 2px;
-}
-
-.containerunidade
-{
 position: relative;
-top: 25px;
-right: 50px;
-text-align: right;
-margin: 0px;
-padding-bottom: 25px;
-color: #0066B3;
+text-align: left;
+left: 850px;
+height: 0.5px;
+padding-top: 10px;
+margin-bottom: 0px;
+padding-bottom: 0px;
 font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #0066B3;
+}
+
+.joaocampos
+{
+
+position: relative;
+text-align: left;
+left: 985px;
+height: 45px;
+padding-bottom: 10px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: #0066B3;
+}
+
+.carossel
+{
+
+
+width: 1142px;
+height: 303px;
+margin-top: 35px;
+margin-left: 85px;
+background-image: url(Hospital.jfif);
+background-size: auto;
 }
