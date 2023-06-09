@@ -1,15 +1,14 @@
-
-
+@media screen and (max-width: 768px){
 .container
 {
 
 display: flex;
 justify-content: top;
 align-items: center;
-height: 15vh;
-
-
+height: 15%;
 }
+
+
 
 .logotitulo
 {
@@ -27,6 +26,8 @@ left: 2%;
 margin: 0px;
 bottom: 89%;
 }
+
+
 
 .retanguloazul
 {
@@ -139,4 +140,6 @@ margin-top: 5%;
 margin-left: 9%;
 background-image: url(Hospital.jfif);
 background-size: auto;
+}
+
 }
