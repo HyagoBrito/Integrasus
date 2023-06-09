@@ -1,0 +1,166 @@
+ .container
+{
+    display: flex;
+position: relative;
+height: 15%;
+}
+
+
+
+.logotitulo
+{
+    position: relative;
+    top: 0%;
+    left: 42.5%;
+    right: 10%;
+}
+
+.logosus
+{
+
+position: relative;
+right: 26%;
+bottom: 80%;
+}
+
+.retanguloazul
+{
+position: relative;
+margin-top: 0%;
+background-color: white;
+width: 100%;
+height: 100px;
+}
+
+.fundodosite
+{
+    height: 100vh;
+    margin: 0px;
+background-color: lightblue;
+}
+
+
+
+.retangulomeio
+{
+margin: 0px;
+padding: 0px;
+display: flex;
+position: relative;
+background-color: #024477;
+justify-content: center;
+text-align: center;
+color: white;
+width: 100%;
+}
+
+.retangulofino
+{
+display: flex;
+justify-content: left;
+align-items: center;
+background-color: white;
+width: 100%;
+height: 8%;
+margin-left: 0px;
+}
+
+.espacobotao
+
+{
+margin-top: 0%;
+height: 100%;
+width: 25%;
+border-style: groove;
+border-color: black;
+border-width: 0.5px;
+transition: 0.7s ease;
+font-family: Arial, Helvetica, sans-serif;
+font-size: 90%;
+}
+
+.espacobotao:hover
+{
+
+background-color: #C1DAF6;
+color: rgb(0, 0, 0);
+transform: scale(1.1);
+}
+
+.unidade
+{
+position: relative;
+padding-top: 4%;
+left: 58%;
+margin: 0%;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+font-size: medium;
+color: #0066B3;
+}
+
+.joaocampos
+{
+position: relative;
+padding-top: 1%;
+left: 69%;
+font-family: Arial, Helvetica, sans-serif;
+font-size: medium;
+font-weight: bold;
+color: #0066B3;
+}
+   
+.carossel
+{
+
+position: relative;
+left: 17.5%;
+width: 48%;
+height: 60%;
+margin-top: 5%;
+margin-left: 9%;
+background-image: url(Hospital.jfif);
+background-size: cover;
+}
+
+.texto {
+    padding-top: 3%;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: center;
+    display: flex;
+    font-size:medium;
+    margin: auto;
+    color: black;
+    font-weight: bold;
+    }
+    .ideia{
+    background: #0066B3;
+    color: white;
+    width: 30%;
+    height: 15%;
+    border-radius: 20%;
+    margin: 0%;
+    display: flex;
+    position: relative;
+    left: 35%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration: none;
+    box-shadow: 1px 3px 2px black;
+    }
+    .preto {
+    font-size: larger;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    justify-content: center;
+    color: black;
+    text-decoration: none;
+    }
+    
